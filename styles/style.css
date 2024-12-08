@@ -339,6 +339,7 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   padding: 60px 80px;
+  color: #ffffff;
 }
 
 .footer__columns {
@@ -346,12 +347,10 @@
 }
 
 .footer__column_content_hours {
-  color: #ffffff;
   margin-left: auto;
 }
 
 .footer__column_content_social {
-  color: #ffffff;
   margin-left: 80px;
 }
 
@@ -389,5 +388,4 @@
 
 .footer__copyright {
   margin-top: 100px;
-  color: #ffffff;
 }
