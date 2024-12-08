@@ -334,24 +334,34 @@
 .step__description {
   margin: 10px 0 0;
 }
-
+/*---------------------footer section---------------------*/
 .footer {
   box-sizing: border-box;
+  background-color: #1f1f1f;
+  padding: 60px 80px;
 }
 
 .footer__columns {
+  display: flex;
 }
 
 .footer__column_content_hours {
+  color: #ffffff;
+  margin-right: 80px;
 }
 
 .footer__column_content_social {
+  color: #ffffff;
 }
 
 .footer__logo {
+  width: 58px;
+  height: 80px;
+  margin-right: auto;
 }
 
 .footer__column-heading {
+  margin: 0 0 20px 0;
 }
 
 .footer__list {
@@ -362,16 +372,23 @@
 }
 
 .footer__list-item {
+  margin: 16px 0 0 0;
 }
 
 .footer__column-link {
+  display: flex;
+  align-items: center;
   color: white;
   text-decoration: none;
 }
 
 .footer__social-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
 }
 
 .footer__copyright {
+  margin-top: 100px;
+  color: #ffffff;
 }
-/*---------------------footer section---------------------*/
