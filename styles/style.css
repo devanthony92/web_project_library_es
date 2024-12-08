@@ -6,7 +6,7 @@
   font-size: 16px;
   line-height: 20px;
 }
-
+/*---------------------header section---------------------*/
 .header {
   display: flex;
   flex-direction: column;
@@ -84,7 +84,7 @@
   margin: 0;
   color: #838383;
 }
-/*--------------------------------Stage 2--------------------------------*/
+/*---------------------staff section---------------------*/
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   background-position: center;
@@ -160,7 +160,7 @@
   line-height: 20px;
   color: #838383;
 }
-
+/*---------------------events section---------------------*/
 .events {
   padding: 100px 0 120px 80px;
   display: flex;
@@ -289,3 +289,89 @@
   font-size: 14px;
   margin: 0;
 }
+/*---------------------membership section---------------------*/
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.step {
+  flex-basis: 220px;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  box-sizing: border-box;
+}
+
+.footer__columns {
+}
+
+.footer__column_content_hours {
+}
+
+.footer__column_content_social {
+}
+
+.footer__logo {
+}
+
+.footer__column-heading {
+}
+
+.footer__list {
+  /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+}
+
+.footer__copyright {
+}
+/*---------------------footer section---------------------*/
